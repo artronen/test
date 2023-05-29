@@ -19,6 +19,6 @@ jobs:
           npm ci
           npm run build
 #         If mockoon-cli is not a devDependency:
-#         npm install -D mockoon-cli
-          npx mockoon-cli start --data https://domain.com/data.json --port 3000
+          npm install -D mockoon-cli
+          npx mockoon-cli start --data https://artronen.github.io/data.json --port 3000
           npm run test
