@@ -2,7 +2,7 @@ name: Run mock API server
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   test:
@@ -21,4 +21,4 @@ jobs:
 #         If mockoon-cli is not a devDependency:
           npm install -D mockoon-cli
           npx mockoon-cli start --data https://artronen.github.io/data.json --port 3000
-          npm run test
+
